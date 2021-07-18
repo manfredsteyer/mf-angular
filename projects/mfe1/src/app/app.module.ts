@@ -14,7 +14,7 @@ import { FlightsSearchComponent } from './flights/flights-search/flights-search.
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forChild(APP_ROUTES),
+    RouterModule.forRoot(APP_ROUTES),
     MatSnackBarModule,
     AuthLibModule,
     SharedLibModule,
