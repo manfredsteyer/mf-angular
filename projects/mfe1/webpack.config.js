@@ -33,10 +33,10 @@ module.exports = {
             './Module': './projects/mfe1/src/app/app.module.ts',
         },        
         shared: share({
-          "@angular/core": { singleton: true, strictVersion: true, requiredVersion:'auto' },
-          "@angular/common": { singleton: true, strictVersion: true, requiredVersion:'auto' },
-          "@angular/router": { singleton: true, strictVersion: true, requiredVersion:'auto' },
-          "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion:'auto' }, 
+          "@angular/core": { requiredVersion:'auto' },
+          "@angular/common": { requiredVersion:'auto' },
+          "@angular/router": { requiredVersion:'auto' },
+          "@angular/common/http": { requiredVersion:'auto' }, 
           "@angular/material/snack-bar": { singleton: true, strictVersion: true, requiredVersion:'auto' }, 
   
           // Uncomment for sharing lib of an Angular CLI or Nx workspace
